@@ -8,6 +8,7 @@ Resumen.
 |2|Configure a S3 bucket in MinIO S3 compatible storage, Hive Metastore and Trino SQL engine
 |3|Create external tables and Query data lake data using Trino|
 |4|Complete code is available on GitHub. Accompanying video tutorial is available on YouTube.|
+|LINK|[https://aws.plainenglish.io/build-your-own-data-lake-on-your-infrastructure-c5015658b237]()|
 
 
 1. [Introduccion](#1.Introduccion)
@@ -107,3 +108,4 @@ select nombre, apellido, nota,
 dense_rank () over(order by nota desc) rk
 from minio.alumnos.alumnos_tabla 
 ```
+
